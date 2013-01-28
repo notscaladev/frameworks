@@ -1,4 +1,4 @@
-function iterator(object){
+var iterator = function (object){
   this.object = object;
   this.hasNext = function(bool){
     return false;
